@@ -7,7 +7,9 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+		//、、、、、8、
         return application.sources(UmsApplication.class);
+		//asdfasdfasdfasdf:
     }
 
 }
